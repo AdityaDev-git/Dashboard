@@ -1,0 +1,44 @@
+/* nav hide  */
+.hideNav{
+    display: flex;
+}
+@media (max-width:840px) {
+    .hideNav{
+        display: none;
+    }
+}
+
+.hideNavMenu{
+    display: block;
+}
+@media (min-width:840px) {
+    .hideNavMenu{
+        display: none;
+    }
+}
+
+/* main layout padding */
+.mainPadding{
+    padding: 2.5rem;
+}
+@media (max-width:840px) {
+    .mainPadding{
+        padding: 0;
+    }
+}
+
+
+/* home header cards */
+.headerCardList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1rem;
+}
+
+
+
+/* login div slant  */
+.slant{
+    clip-path: polygon(0 0, 100% 0, 84% 100%, 0 100%);
+
+}
